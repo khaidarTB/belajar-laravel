@@ -34,7 +34,7 @@
 
             <tbody class="divide-y divide-gray-200">
 
-                @for    else($pegawai as $item)
+                @forelse($pegawai as $item)
                 <tr class="hover:bg-gray-50 transition">
                     <td class="px-6 py-4 font-medium text-gray-900">{{ $item->nama }}</td>
                     <td class="px-6 py-4 text-gray-600">{{ $item->nip }}</td>
